@@ -6,20 +6,17 @@ app.config(['$routeProvider',function($routeProvider){
         templateUrl:'./assets/tpl/index.html',
         controller:''
     })
-    .when('./blog',{  
+    .when('/blog',{  
         templateUrl:'./assets/tpl/blog.html',
         controller:''
     })
-    .when('./book',{
+    .when('/book',{
         templateUrl:'./assets/tpl/book.html',
-        controller:'bookController'
+        controller:'bookcontroller'
     })
-    .when('./about_me',{
+    .when('/about_me',{
         templateUrl:'./assets/tpl/about_me.html',
         controller:''
     })
-    .when('/book_list',{
-        templateUrl:'./assets/tpl/book_list.html',
-        controller:'booklistController'
-    })
+   
 }])
