@@ -3,18 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>当当网热搜帮</title>
+    <link rel="stylesheet" href="assets/lib/weui.css">
 </head>
 <body>
-    <div ng-app="app" ng-controller="mainController">
+    <div ng-app="app" class="ng-scope">
+        <div class="page_bd">
         <div ng-view>
-
         </div>
-    </div>
-
+          
+          <div class="weui-tabbar ng-scope" ng-controller="mainController">
+                    <a href="#/" ng-click="linTo(0)" class="weui-tabbar__item {{selectedIndex == 0?'weui-bar_item_on':''}}">
+                        <img src="./assets/images/icon_nav_button.png" alt="" class="weui-tabbar__icon">
+                        <p class="weui-tabbar__label">首页</p>
+                    </a>
+                    <a href="#/blog" ng-click="linTo(1)" class="weui-tabbar__item {{selectedIndex == 1?'weui-bar_item_on':''}}">
+                        <img src="./assets/images/icon_nav_cell.png" alt="" class="weui-tabbar__icon">
+                        <p class="weui-tabbar__label">我的blog</p>
+                    </a>
+                    <a href="#/list" ng-click="linTo(2)" class="weui-tabbar__item {{selectedIndex == 2?'weui-bar_item_on':''}}">
+                        <img src="./assets/images/icon_nav_msg.png                                  " alt="" class="weui-tabbar__icon">
+                        <p class="weui-tabbar__label">当当热销</p>
+                    </a>
+                    <a href="#/about_me" ng-click="linTo(3)" class="weui-tabbar__item {{selectedIndex == 3?'weui-bar_item_on':''}}">
+                        <img src="./assets/images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
+                        <p class="weui-tabbar__label"> 关于我</p>
+                    </a>
+            </div>
+            </div>
+     </div>
     <script src="assets/lib/angular.js"></script>
     <script src="assets/lib/angular-route.js"></script>
     <script src="assets/app.js"></script>
     <script src="assets/api/service.js"></script>
     <script src="assets/controller/main_controller.js"></script>
+    <script src="assets/controller/book_controller.js"></script>
+
 </body>
 </html>
