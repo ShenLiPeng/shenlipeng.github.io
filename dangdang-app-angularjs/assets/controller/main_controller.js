@@ -1,5 +1,5 @@
-app.controller('mainController',['$scope','commonSerevice',function($scope,c_s){
-  c_s.getDta('ertong',function(res){
-      console.log()
+app.controller('mainController',['$scope','commonService',function($scope,c_s){
+  c_s.getData('ertong',function(res){
+      console.dir(res);
   })   
 }])
