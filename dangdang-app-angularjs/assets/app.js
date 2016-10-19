@@ -3,19 +3,19 @@ var app = angular.module('app',['ngRoute']);
 app.config(['$routeProvider',function($routeProvider){
     $routeProvider
     .when('/',{
-        template:'./tpl/index.html',
+        templateUrl:'./assets/tpl/index.html',
         controller:''
     })
     .when('./blog',{  
-        template:'../tpl/blog.html',
+        templateUrl:'./assets/tpl/blog.html',
         controller:'blogController'
     })
     .when('./book',{
-        template:'./tpl/book.html',
+        templateUrl:'./assets/tpl/book.html',
         controller:'bookController'
     })
     .when('./about_me',{
-        template:'./tpl/index.html',
+        templateUrl:'./assets/tpl/about_me.html',
         controller:''
     })
     .when('/book_list',{
