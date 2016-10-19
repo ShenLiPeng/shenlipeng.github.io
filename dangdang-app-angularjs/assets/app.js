@@ -12,7 +12,7 @@ app.config(['$routeProvider',function($routeProvider){
     })
     .when('/book',{
         templateUrl:'./assets/tpl/book.html',
-        controller:'bookcontroller'
+        controller:'bookController'
     })
     .when('/about_me',{
         templateUrl:'./assets/tpl/about_me.html',
