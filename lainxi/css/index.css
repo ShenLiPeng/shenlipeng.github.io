@@ -121,7 +121,7 @@ main .bgpicture{
 .part .contents .picture{
 display: flex;
 justify-content: center;
-padding-top:20;
+padding-top:20px;
 width: 100%;
 height: 60%;
 }
