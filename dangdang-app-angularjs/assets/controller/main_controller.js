@@ -3,7 +3,7 @@ app.controller('mainController',['$scope','commonService',function($scope,c_s){
       console.dir(res);
   });
   $scope.selectedIndex = 0;
-  $scope.linTo = function(index){
+  $scope.linkTo = function(index){
       $scope.selectedIndex = index;
   } 
 }])
