@@ -1,5 +1,5 @@
 <div class="weui-cells">
-	<a  ng-repeat="item in bookType" class="weui-cell weui-cell_access" href="javascript:;">
+	<a  ng-repeat="item in bookType"class="weui-cell weui-cell_access" >
 		<div class="weui-cell__bd">
 			<p>{{item.name}}</p>
 		</div>
@@ -7,9 +7,9 @@
 	</a>
 	<a class="weui-cell weui-cell_access" href="javascript:;">
 		<div class="weui-cell__bd">
-			<p></p>
+			<p>{{item.description}}</p>
 		</div>
-		<div class="weui-cell__ft">{{item.description}}</div>
+		<div class="weui-cell__ft">文字说明</div>
 	</a>
 
 </div>
