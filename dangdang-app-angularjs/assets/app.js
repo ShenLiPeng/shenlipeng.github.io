@@ -8,7 +8,7 @@ app.config(['$routeProvider',function($routeProvider){
     })
     .when('./blog',{  
         templateUrl:'./assets/tpl/blog.html',
-        controller:'blogController'
+        controller:''
     })
     .when('./book',{
         templateUrl:'./assets/tpl/book.html',
@@ -20,7 +20,7 @@ app.config(['$routeProvider',function($routeProvider){
     })
     .when('/book_list',{
         templateUrl:'./assets/tpl/book_list.html',
-        controller:'booklistController'
+        controller:''
     })
     .otherwise({
          redirectTo:'/'
