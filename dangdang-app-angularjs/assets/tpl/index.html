@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="1.png"/>
+        <link rel="bookmark" href="1.png"/>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta charset="utf-8">
+        <meta name="author" content="赵桂丹">
+        <title></title>
+        <style>
+           .divRed{
+               box-sizing:border-box;
+               width:200px;
+               height:150px;
+           } 
+        </style>
+    </head>
+    <body>
+        <div ng-app="app">
+            <div class="main" ng-controller="mainController">
+               显示 <input type="checkbox" ng-model="textIsShow">
+               <div class="divRed" ng-show="{{textIsShow}}">
+
+               </div>
+            </div>
+        </div>
+        <script src="lib/angular.js"></script>
+    </body>
+</html>
