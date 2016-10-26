@@ -6,11 +6,11 @@
     <link rel="stylesheet" href="assets/lib/weui/weui.css">
 </head>
 <body>
-    <div ng-app="app"  style="position:fixed">
+    <div ng-app="app">
         <div class="page__bd">
         <div ng-view>
         </div>
-          <div class="weui-tabbar footer-nav" ng-controller="mainController">
+          <div class="weui-tabbar footer-nav" ng-controller="mainController"  style="position:fixed">
                     <a href="#/" ng-click="linkTo(0)" class="weui-tabbar__item {{selectedIndex==0?'weui-bar__item_on':''}}">
                         <img src="./assets/images/icon_nav_button.png" alt="" class="weui-tabbar__icon">
                         <p class="weui-tabbar__label">首页</p>
