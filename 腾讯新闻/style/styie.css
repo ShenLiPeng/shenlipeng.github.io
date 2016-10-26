@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; padding:0;}
+ul,li{ list-style:none;}
+
+
+
+
+.nav{ width:100%; height:66px;background:url(../images/8.jpg) repeat-x; color:#182b4b;}
+
+.top{ width:1004px; height:84px; margin:0 auto;}
+.nav1{ width:1004px; height:66px; font-size:14px; text-align:center; color:#FFFFFF; line-height:32px; margin:0 auto;}
+.nav1 ul{ margin:0 ; padding:0;}
+.nav ul.nav1_ul{ width:146px; height:64px; float:left;}
+.nav ul.nav1_ul1{ width:110px; height:64px; float:left;}
+.nav1 ul li{ width:42px; height:30px; float:left;}
+
+.span{color:#3b639e;}
+

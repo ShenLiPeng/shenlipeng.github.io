@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+ body{ margin:0; padding:0;}
+ ul,li{ list-style:none;}
+ 
+ 
+ .top{ width:1068px; height:30px; background:url(../images/03.jpg) repeat-x; margin:auto;}
+ .nav{ width:990px; height:94px; margin:0 auto;}
+ .nav1{ width:990px; height:40px; background: url(../images/04.jpg) repeat-x; margin:0 auto;}
+ .one{width:85px; height:38px; color:#FFFFFF; float:left; font-size:14px; margin-left:34px; line-height:38px;}
+.one1{ width:70px; height:16px; float:left;}
+.one2{ width:196px; height:72px;border:1px   #cdcdcd solid;}
+.one3{  width:198px; height:34px; margin:0; padding:0; line-height:20px;}
+span{ color:#fe0000;}
+.one4{ float:left; margin-right:10px;}
+.one5{border:1px   #cdcdcd solid; width:200px; height:140px; font-size:12px; line-height:24px;}
+.one6{width:778px; height:278px; border:1px   #cdcdcd solid; margin-top:8px;}
+.one7{margin:0; padding:0; width:164px; height:132px; float:left; margin-top:20px; background:url(../images/55.jpg)100px  8px no-repeat;}
