@@ -1,9 +1,9 @@
- html,body{
+       body{
              width:100%;background-color:lightgray;text-align:center;font-size:20px;line-height:35px;
            }
-           .img_content{
+        .img_content{
               display:flex;justify-content:center;margin-top:50px; 
            }
-           .pic{
+        .pic{
               width: 200px;height: 200px;border-radius: 100px;margin-bottom:60px; 
            }
