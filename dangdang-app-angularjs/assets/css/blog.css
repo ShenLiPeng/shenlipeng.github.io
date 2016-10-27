@@ -1,5 +1,5 @@
 /* CSS Document */
-body {
+.body{
     margin: 0;
     background: #fff;
     color: #333;
@@ -749,7 +749,7 @@ a.button {
     }
 }
 function echo(stringA,stringB) {
-    var hello="ÄãºÃ";alert("hello world")
+    var hello="ï¿½ï¿½ï¿½ï¿½";alert("hello world")
 }
 .project__thumb img {
     transition: all 0.3s;
