@@ -1,0 +1,21 @@
+        .main{
+         margin-top:50px;
+         display:flex;
+         justify-content:center;
+        }
+		main{
+         padding:20px;
+         width:750px;
+         height:800px;
+         background-color:lightgray;
+         border-radius:20px;
+         
+        }
+        ul{
+            padding:30px 80px;
+        }
+        li{
+            padding-bottom:8px;
+            font-size:18px;
+            line-height:20px;
+        }
