@@ -10,4 +10,10 @@
         .pic{
               width: 200px;height: 200px;border-radius: 100px;margin-bottom:60px; 
            }
+
+           .p_text{
+             width: 100px;
+             text-align:center;
+
+           }
         
