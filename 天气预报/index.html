@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta charset="utf-8">
+        <meta name="author" content="赵桂丹">
+        <title></title>
+        <style>
+            
+        </style>
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <div class="title">
+             <h1>近日天气预报一览表</h1>
+        </div>
+        
+        <p>请输入城市名: <input type="text" id="adress"><a href="javaScript:void(0)" onclick="doSearch()"> 查询</a></p>
+        <div class="container" id="content"></div>
+        <script id="table" type="text/html">
+            <table class="table">
+                    <tr>
+                        <td>日期</td>
+                        <td>星期</td>
+                        <td>天气</td>
+                        <td>风力</td>
+                        <td>风向</td>
+                        <td>最高温</td>
+                        <td>最低温</td>
+                    </tr>
+         {{each list as value i}}
+          <tr>
+             
+             <td>{{value.date}}</td>
+             <td>{{value.week}}</td>
+             <td>{{value.stute}}</td>
+             <td>{{value.power}}</td>
+             <td>{{value.wind}}</td>
+             <td>{{value.tempMax}}</td>
+             <td>{{value.tempMin}}</td>
+          </tr>
+         {{/each}}
+          </table>
+        </script>
+        
+
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/template.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

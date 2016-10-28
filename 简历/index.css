@@ -1,0 +1,195 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+html{
+    height: 100%;
+
+}
+body{
+    height: 100%;
+    background-image: url(wood.png);
+    padding-top: 40px;
+    /*body内容上方留白*/
+}
+
+section{
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px #333;
+    width: 392px;
+    height: 101px;
+    position: relative;
+    border-radius: 17px;
+    padding: 10px 20px 10px 30px;
+   
+}
+section:nth-child(2n+1){
+    /*top: -20px;*/
+    left: -60px;
+}
+section:nth-child(2n){
+    
+    left: 60px;
+}
+
+section:nth-child(n+4){
+   background-color: rebeccapurple; 
+    
+/*2n+1代表奇数个，2能代表偶数个   可以从第四个开始n+4*/
+}
+
+section:nth-child(1){
+    background-color: #1c1a17;
+    z-index: 800;
+    top: -13px;
+    /*改变层级  值越大层级越高 可以覆盖在其他元素上面 */
+    background-image: url(diwen.png);
+    background-size: 60%;
+    background-position:80px -7px;
+    background-repeat: no-repeat;
+    transform: rotate(-3deg);
+    left: -100px !important;
+    /*transform: scale(3)  表示进行了缩放， 如果要同时进行旋转和缩放 那么只要有空格隔开就行了*/
+}
+section:nth-child(2){
+background-color: #dededc;
+z-index: 700;
+top: -26px;
+}
+section:nth-child(3){
+background-color: #c4bc66;
+top: -39px;
+z-index: -39px;
+z-index: 600;
+}
+section:nth-child(4){
+background-color: #bc8ebc;
+top: -52px;
+z-index: 500;
+
+
+}
+section:nth-child(5){
+background-color: #dc214c;
+top: -65px;
+z-index: 400;
+}
+section:nth-child(6){
+background-color: #e3efc1;
+top:-78px;
+z-index: 300;
+}
+section:nth-child(7){
+background-color: #d5c2d8;
+top: -91px;
+z-index: 200;
+}
+section:nth-child(8){
+background-color: #c0c2c1;
+top: -104px;
+z-index: 100;
+overflow: hidden;
+}
+section>span{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    background-image: url(wood.png);
+}
+
+h1{
+    text-align:right;
+    font-size: 50px;
+    font-family:迷你简双线体;
+    color: white;
+}
+h2{
+font-size: 30px;
+color: blue;
+position: relative;
+top: -50px;
+font-weight: 300;
+
+
+}
+small{
+    font-size: 26px;
+     color: white;
+     font-weight: 100;
+     position: relative;
+     top: 20px;
+
+}
+h3{
+    text-align: right;
+
+}
+p{
+    text-align: right;
+    font-size: 14px;
+}
+#information p:nth-of-type(2){
+    position: relative;
+    top: -60px;
+    left: -180px;
+}
+.white{
+    color: white;
+}
+/*样式名为white的样式 如果多个标签用相同的样式 可以用相同额class名 还可以用逗号隔开标签名 
+比如div，h1{color：.white}*/
+.comment{
+    text-align: left;
+    font-size: 12px;
+    position: relative;
+    top: -15px;
+    
+}
+.assess{
+    position: relative;
+    top: 5px;
+}
+
+.yellow{
+    width: 154px;
+    height: 154px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: inline-block;
+    opacity: 0.5;
+    position: relative;
+    top: -50px;
+    left: 5px;
+    z-index: 100;
+}
+.blue{
+    width: 217px;
+    height: 217px;
+    border-radius: 50%;
+    background-color:blue;
+    opacity: 0.5;
+    position: relative;
+    top: -260px;
+    left: 120px;
+    z-index: 50;
+
+}
+.center{
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+.develop{
+    position:relative;
+    top:-350px;
+    left: 180px;
+    font-size: 27px;
+    font-weight: 600;
+    color: white;
+    z-index: 500;
+}
