@@ -10,3 +10,7 @@
         .pic{
               width: 200px;height: 200px;border-radius: 100px;margin-bottom:60px; 
            }
+         p{
+               display: block;
+               text-align: center;
+         }
